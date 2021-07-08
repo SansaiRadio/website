@@ -14,9 +14,6 @@
         date_default_timezone_set("Europe/London");
     }
     
-    // This script will simpy fetch and parse our JSON feed
-    $feed['json'] = file_get_contents('https://control.internet-radio.com:2199/recentfeed/shiseiban/json/');
-    $feed['parsed'] = json_decode($feed['json'], true);
 
     // THIS IS A TEST ONLY, SO YOU CAN SEE IT HAS UPDATED, FEEL FREE TO REMOVE
     if(isset($_GET['np']))

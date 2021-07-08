@@ -12,7 +12,7 @@ player.play();
 $('#stop').click(function () {
             audio.pause();
             audio.src = '';
-            audio.src = 'http://uk7.internet-radio.com:8026/live';
+            audio.src = 'http://138.68.132.1:8000/radio.mp3';
         });
         
 // Mute Button

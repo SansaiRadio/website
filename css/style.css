@@ -49,3 +49,9 @@ a:visited:hover {
   left: 8%;
   transform: translate(-50%, -50%);
 }
+
+/* Highlighting */
+
+::selection {
+  background: #a1d2c4;
+}
